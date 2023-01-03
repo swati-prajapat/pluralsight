@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+}
+
+.login-box{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.image-box{
+    background-color: #1D1D1D;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.image-box img{
+    height: 350px;
+}
+
+.pink-btn{
+    padding: 15px 20px;
+    background-color: #ff1675;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+}
+
+label{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.sign-btn{
+    margin-top: 20px;
+    background-color: darkorange;
+    border: none;
+    height: 40px;
+    transition: all ease-in 0.3s;
+}
+
+.sign-btn:hover{
+    background-color: #0093d8;
+    letter-spacing: 10px;
+}
+p{
+    font-size: 12px;
+}
+a2{
+    font-size: 12px;
+    border-bottom:  white 1px solid;
+    
+}
+    
+
+
+.login-box form input{
+    height: 40px;
+    background: none;
+    border: gray 1px solid;
+
+}
+
+.login-box img{
+    height: 60px;
+}
+
+.border{
+    width: 80%;
+    border-bottom: 1px solid gray ;
+}
+
+.create-btn{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(138, 153, 168 , 0.25);
+    color: #fff
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+@media(max-width : 768px){
+
+    .container{
+        display: block;
+    }
+
+    .image-box{
+       width: 100%;
+       display: none;
+    }
+
+    .login-box{
+        width: 100%;
+    }
+}
